@@ -1,0 +1,86 @@
+.errorMessage {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.post_author{
+    color: cyan;
+    cursor:pointer;
+}
+.title_post{
+    margin-top: 5%;
+    font-size: 72px;
+    line-height: 70px;
+}
+.title_post,.post_author,.post_date{
+    margin: 0;
+    margin-left: 16px;
+}
+.comments-container {
+    background-color: #000000;
+    padding: 16px;
+    margin-bottom: 5%;
+    border-radius: 8px;
+
+}
+
+.comments-list {
+    margin-bottom: 16px;
+}
+
+.comment {
+    background-color: #000000;
+    padding: 8px;
+
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.new-comment textarea {
+    width: 80%;
+    padding: 8px;
+    text-align: center; /* 將按鈕文本置中 */
+    display: block; /* 將按鈕設為塊級元素，使其佔據整個寬度 */
+    margin: 0 auto; /* 使用 margin: 0 auto; 將按鈕水平置中 */
+    font-size: 24px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.new-comment button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* 將按鈕文本置中 */
+    display: block; /* 將按鈕設為塊級元素，使其佔據整個寬度 */
+    margin: 0 auto; /* 使用 margin: 0 auto; 將按鈕水平置中 */
+}
+.divBox_comment {
+    width: 80%;
+    height: 100px;
+    background-color: #333; /* 背景顏色可以自行調整 */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: white; /* 字體顏色可以自行調整 */
+}
+.divBox_comment p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.comment_user{
+    color: aqua;
+}
+.comment_date{
+    color: #696969;
+    font-size: 14px;
+}
+.errorMessage{
+    text-align: center;
+}

@@ -1,0 +1,109 @@
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 40%;
+    align-items: center;
+}
+
+label.upload-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    width: 40%;
+    align-items: center;
+}
+.TextInput {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 20%;
+}
+
+.upload-btn{
+    width: 40%;
+    align-items: center;
+}
+.Layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-btn,
+.upload-btn:focus {
+    position: relative;
+    z-index: 1;
+    min-width: 40%;
+    border: 2px solid #D24D57;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    padding: 10px 20px;
+}
+
+.upload-btn:after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    z-index: -1;
+    background: #D24D57;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+}
+
+.upload-btn:hover {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+.upload-btn:hover:after {
+    height: 450%;
+}
+
+@media screen and (max-width: 768px) {
+    input[type="text"] {
+       width: 90%;
+    }
+    
+}

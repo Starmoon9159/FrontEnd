@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    /* 隱藏 tag 和 thumbnail */
+    .post_tag,
+    .post_image {
+        display: none;
+    }
+    .divBox {
+        width: 90%;
+      }
+    
+}
